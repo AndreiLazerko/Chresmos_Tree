@@ -44,8 +44,9 @@ h1, h2 {
 }
 
 .container {
-  max-width: 1290px;
+  max-width: 1390px;
   margin: 0 auto;
+  padding: 0px 50px;
 }
 
 .hide{
@@ -69,4 +70,28 @@ button, input{
 
 button{
   cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .container{
+    padding: 0px 42px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 760px) {
+
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 0px 20px;
+  }
 }
